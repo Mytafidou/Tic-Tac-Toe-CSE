@@ -2,7 +2,7 @@
 
 This is a two-player strategy game implemented in Java, where a human player competes against an AI using the Minimax algorithm. The game is played on a 3x3 grid with three letters: C, S, and E.
 
-** Game Rules: **
+**Game Rules:**
 
 * Players take turns placing one of the letters (C, S, or E) in an empty cell.
 * The game starts with an S already placed in the middle row (either left or right position).
@@ -14,7 +14,7 @@ This is a two-player strategy game implemented in Java, where a human player com
   * A winning sequence is created (one player wins).
   * The grid is full with no winning sequence (draw).
 
-** AI Implementation: **
+**AI Implementation:**
 
 The AI (MAX player) always plays optimally using the Minimax algorithm.
 The Minimax function is implemented recursively, evaluating all possible moves to determine the best strategy.
